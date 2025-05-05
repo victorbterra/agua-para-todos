@@ -1,5 +1,4 @@
 'use client';
-
 import { useState } from 'react';
 import QuizCard from '@/components/quizcard';
 
@@ -29,12 +28,12 @@ export default function QuizPage() {
   }
 
   return (
-    <div>
+    <div className="max-w-2xl py-20 mx-auto">
       {finalizado ? (
-        <p className="text-xl font-medium text-green-700">
-          Você acertou {pontos} de {perguntas.length} perguntas!
+        <p className="text-3xl text-center font-medium text-green-700">
+          Você acertou <strong>{pontos}</strong> de <strong>{perguntas.length}</strong> perguntas!
         </p>
-      ) : (
+        ): (
         <QuizCard dados={perguntas[indice]} aoResponder={responder} />
       )}
     </div>

@@ -4,8 +4,8 @@ export default function QuizCard({ dados, aoResponder }: {
   }) {
     return (
       <div className="space-y-4">
-        <h2 className="text-xl font-semibold">{dados.pergunta}</h2>
-        <div className="space-y-2">
+        <h2 className="text-xl font-semibold text-center">{dados.pergunta}</h2>
+        <div className="space-y-5">
           {dados.opcoes.map((opcao, index) => (
             <button
               key={index}
