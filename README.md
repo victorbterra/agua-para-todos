@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💧 Plataforma Educacional Interativa sobre Saneamento
 
 Projeto de Extensão do Curso de Análise e Desenvolvimento de Sistemas, com foco na **ODS 6 – Água Potável e Saneamento**.
@@ -145,4 +144,3 @@ Conteúdo disponível em texto, ilustrações e áudio para maior acessibilidade
 - Banco de Dados
 - Projeto Integrador
 - Sustentabilidade e TI
->>>>>>> c11258ef2ca52def224e6f275e0b0ff7ad605621
