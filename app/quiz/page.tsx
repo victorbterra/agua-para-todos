@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import QuizCard from '@/components/QuizCard';
+import QuizCard from '@/components/quizcard';
 
 const perguntas = [
   {
