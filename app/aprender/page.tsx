@@ -5,11 +5,11 @@ import ilustrationThree from "@/public/images/ilustration-three.svg";
 import ilustrationFour from "@/public/images/ilustration-four.svg";
 export default function AprenderPage() {
   return (
-    <div className="space-y-6 py-6">
-      <div className="flex items-center space-x-6">
-        <div className="w-1/2">
+    <main className="space-y-6 py-6">
+      <section className="flex flex-col p-3 lg:flex-row lg:items-center space-x-6 gap-6">
+        <div className="w-full lg:w-1/2">
           <h2 className="text-4xl mb-3 text-blue-900 font-semibold">
-            💧 O que é saneamento básico?
+            O que é saneamento básico? 💧
           </h2>
           <p className="mb-3">
             Saneamento básico é o conjunto de serviços que garantem o
@@ -25,7 +25,7 @@ export default function AprenderPage() {
             comunidades vivem melhor.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <Image
             src={ilustrationHome}
             alt="Saneamento"
@@ -33,9 +33,9 @@ export default function AprenderPage() {
             height={512}
           />
         </div>
-      </div>
-      <div className="flex items-center space-x-6">
-        <div className="w-1/2">
+      </section>
+      <section className="flex flex-col-reverse p-3 lg:flex-row lg:items-center space-x-6 gap-6">
+        <div className="w-full lg:w-1/2">
           <Image
             src={ilustrationThree}
             alt="Saneamento"
@@ -43,7 +43,7 @@ export default function AprenderPage() {
             height={512}
           />
         </div>
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <h2 className="text-4xl mb-6 text-blue-900 font-semibold">
             🏠 Cuidados com a água em casa
           </h2>
@@ -59,9 +59,9 @@ export default function AprenderPage() {
             viver sem ela.
           </p>
         </div>
-      </div>
-      <div className="flex items-center space-x-6">
-      <div className="w-1/2">
+      </section>
+      <section className="flex flex-col p-3 lg:flex-row lg:items-center space-x-6 gap-6">
+        <div className="w-full lg:w-1/2">
           <h2 className="text-4xl mb-6 text-blue-900 font-semibold">
             🚿 A importância da água e seu uso consciente.
           </h2>
@@ -80,7 +80,7 @@ export default function AprenderPage() {
             pequenas atitudes fazem uma diferença enorme no mundo.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <Image
             src={ilustrationTwo}
             alt="Saneamento"
@@ -88,9 +88,9 @@ export default function AprenderPage() {
             height={512}
           />
         </div>
-      </div>
-      <div className="flex items-center space-x-6">
-      <div className="w-1/2">
+      </section>
+      <section className="flex flex-col-reverse p-3 lg:flex-row lg:items-center space-x-6 gap-6">
+        <div className="w-full lg:w-1/2">
           <Image
             src={ilustrationFour}
             alt="Saneamento"
@@ -98,7 +98,7 @@ export default function AprenderPage() {
             height={512}
           />
         </div>
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <h2 className="text-4xl mb-6 text-blue-900 font-semibold">
             ✅Boas práticas de uso consciente da água.
           </h2>
@@ -125,7 +125,7 @@ export default function AprenderPage() {
             </li>
           </ul>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
